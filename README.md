@@ -1,5 +1,7 @@
 # Killer Sudoku
 
+A set of tools for working with Killer Sudoku puzzles in Prolog --- a variant of classic Sudoku extended with cage constraints. Includes a solver, puzzle generator and difficulty rater.
+
 ## Requirements
 
 - [SWI-Prolog](https://www.swi-prolog.org/download) (tested on version 9.1.3)
