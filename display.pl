@@ -110,7 +110,7 @@ print_blocks_labels(BC, Num) :-
     N1 is Num - 1,
     print_blocks_labels(BC, N1).
 
-% display_puzzle(+N, +Cages)
+% display_puzzle(+N)
 % Prints an unsolved puzzle - cage label grid followed by cage sums.
 % Cages - list of cage(Sum, [(Row,Col), ...])
 display_puzzle(Cages) :-
